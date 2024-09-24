@@ -1,5 +1,6 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
+import { TextGenerateEffect } from './ui/TextGenerateEffect'
 
 const Hero = () => {
     return (
@@ -18,8 +19,12 @@ const Hero = () => {
             <div className='flex justify-center relative z-10 my-20'>
                 <div className='max-w-[89vw] md:mx-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
                     <h2 className=' uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                        aaaa
+                        
                     </h2>
+                    <TextGenerateEffect words='Welcome to the future of the web' className='text-4xl md:text-6xl font-bold text-center' />
+                    <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
+                        Hi, I&apos;m victor, a fullstack developer
+                    </p>
                 </div>
             </div>
 
