@@ -6,7 +6,7 @@ import bg from '../public/bg.png'
 
 const RecentProjects = () => {
   return (
-    <div className='py-4'>
+    <div className='py-4 mt-10'>
         <h1 className='heading'>
             Recent Projects
         </h1>
@@ -20,10 +20,10 @@ const RecentProjects = () => {
                             <div className=' relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                                 <img src={bg.src} alt='bg-img'/>
                             </div>
-                            <img src={project.img} alt={project.title} className='z-10 absolute bottom-0'/>
+                            <img src={project.img} alt={project.title} className='z-10 absolute bottom-0 h-full'/>
                         </div>
                         <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>{project.title}</h1>
-                        <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2'>{project.des}</p>
+                        <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2 whitespace-pre-wrap'>{project.des}</p>
                         <div className='flex items-center justify-between mt-7 mb-3'>
                             <div className='flex items-center'>
                                 {project.iconLists.map((icon, i)=>(
