@@ -1,5 +1,4 @@
 import React from 'react'
-import MagicButton from './ui/MagicButton'
 import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
 import { gridItems } from '@/data'
 

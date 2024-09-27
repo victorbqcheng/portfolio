@@ -3,7 +3,6 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GrideGlobe } from "./GridGlobe";
-import { div } from "framer-motion/client";
 import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
@@ -90,14 +89,14 @@ export const BentoGridItem = ({
                             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
                                 {/* left */}
                                 <div className="flex flex-col gap-3 lg:gap-5">
-                                    {["C#", ".NetCore", "React"].map((item, i) => (
+                                    {["C#", ".NetCore", "React"].map((item) => (
                                         <span key={item} className="py-2 lg:py-4 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">{item}</span>
                                     ))}
                                     <span className="py-4 rounded-lg text-center bg-[#10132E]" />
                                 </div>
                                 <div className="flex flex-col gap-3 lg:gap-5">
                                     <span className="py-4 rounded-lg text-center bg-[#10132E]" />
-                                    {["Azure", "Typescript", "C++"].map((item, i) => (
+                                    {["Azure", "Typescript", "C++"].map((item) => (
                                         <span key={item} className="py-2 lg:py-4 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">{item}</span>
                                     ))}
                                     
