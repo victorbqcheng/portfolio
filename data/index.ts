@@ -217,13 +217,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      href: "https://github.com/victorbqcheng"
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      href: "https://www.linkedin.com/in/victor-cheng-7a1649314/"
     },
   ];
