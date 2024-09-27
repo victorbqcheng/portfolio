@@ -19,12 +19,12 @@ export const navItems = [
   export const gridItems:GridItem[] = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "A seasoned developer with 10 years of C++ experience, now transitioning to full-stack development in .NET and React.",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/fullstack.png",
       spareImg: "",
     },
     {
@@ -60,8 +60,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "",
+      description: "",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -86,15 +86,16 @@ export const navItems = [
       title: "WeatherApp",
       des: "A responsive weather application built using Vite and React, integrated with OpenWeather and AccuWeather APIs to provide real-time weather data, hourly forecasts, and extended weather predictions.",
       img: "/WeatherApp.webp",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/restapi.png"],
       link: "https://github.com/victorbqcheng/WeatherApp",
+
     },
     {
       id: 2,
       title: "Music Player",
       des: "This is a simple yet powerful music player application",
       img: "/MusicPlayerApp.png",
-      iconLists: ["/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
       link: "https://github.com/victorbqcheng/MusicPlayer",
     },
     {
@@ -102,7 +103,7 @@ export const navItems = [
       title: "msa-phase2",
       des: "This is a simple blog platform that includes features such as user registration,login, creating, editing, deleting, and browsing blog articles,as well as innovative features like generating blog titles using AI (GPT4o)",
       img: "/BlogApp.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/restapi.png", "/Azure.webp", "Dotnet.png"],
       link: "https://github.com/adrianhajdin/ai_saas_app",
     },
     {
