@@ -104,7 +104,7 @@ export const navItems = [
       des: "This is a simple blog platform that includes features such as user registration,login, creating, editing, deleting, and browsing blog articles,as well as innovative features like generating blog titles using AI (GPT4o)",
       img: "/BlogApp.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/restapi.png", "/Azure.webp", "Dotnet.png"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://github.com/victorbqcheng/msa-phase2",
     },
     {
       id: 4,
@@ -112,7 +112,7 @@ export const navItems = [
       des: "--                                                                                            --",
       img: "/bg.png",
       iconLists: [""],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "#",
     },
   ];
   
